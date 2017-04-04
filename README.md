@@ -6,7 +6,8 @@ This is a reference project base on WeixinSDK.net used to introduce how to use C
  
 For more technical details please refer to： http://www.cnblogs.com/sonic1abc/p/5941442.html
 
-##Demo for using bot direct line V1.1 rest APIs to connect bot with WeChat offical account
+Demo for using bot direct line V1.1 rest APIs to connect bot with WeChat offical account
+====
 
 In bot frameowrk there is channel - direcline that can help to connect the bot to any canvas like native app, Wechat offical account, Wechat enterprise account,IoT device etc. This sample is based on WeiXinSDK.net C# open source code for Wechat offical account, we used bot DL to connect a WeChat offical account backend to a bot. The message received from WeChat can be transfer to bot.
 
@@ -14,7 +15,8 @@ Bot DL provids restful APIs, so it can be implemented by any language. The demo 
 
 For WeChat offical account, the projet with C# can be used as WeChat offical account backend directly. Hopefully, everyone could build your own bot in WeChat. :-)
 
-##How doest it work ?
+How doest it work ?
+====
 
 In Wechat offical account backend, it will get a message from WeChat service WeixinMessageType.Text will handle text message from the user, where we can use PostMessage function in MSBot to forward this message to bot, and get reply from bot, finally reply to the user in WeChat. Please kindly find code snapshot
 
